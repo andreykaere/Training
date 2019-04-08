@@ -124,7 +124,7 @@
 \noindent Точка $Z$ называется \textit{\textbf{центром масс}} системы материальных 
 точек\\
 $A_1(m_1), \, A_2(m_2), \, ... \, , \, A_n(m_n)$, 
-если $\mathlarger{\sum_{i=1}^{n} m_i \, \Overrightarrow{ZA_i} = \vec{0}}$.
+если $\mathlarger{\sum_{i=1}^{n} m_i \Overrightarrow{ZA_i} = \vec{0}}$.
 
 
 \begin{theorem}[о существовании центра масс]
@@ -133,28 +133,30 @@ $A_1(m_1), \, A_2(m_2), \, ... \, , \, A_n(m_n)$,
 \end{theorem}
 
 \begin{proof}
-	Рассмотрим произвольную точку $X$. Тогда для любой  точки
+	{\setstretch{1.8}
+    Рассмотрим произвольную точку $X$. Тогда для любой  точки
 	плоскости $O$ имеет место равенство $\mathlarger{\sum_{i=1}^{n}
-	m_i \, (\vecarrow{XA_i} - \vecarrow{OX_{\, \,}}) = \sum_{i=1}^{n} 
-	m_i \, \vecarrow{OA_i}}$. Тогда, чтобы точка $O$ была 
+	m_i  (\vecarrow{XA_i} - \vecarrow{OX_{\, \,}}) = \sum_{i=1}^{n} 
+	m_i  \vecarrow{OA_i}}$. Тогда, чтобы точка $O$ была 
 	\textit{центром масс} системы, должно выполняться равенство
 	$\mathlarger{\sum_{i=1}^{n} 
-	m_i \, \vecarrow{OA_i}} = \vec{0}$ $\iff \mathlarger{\sum_{i=1}^{n} m_i \,
+	m_i  \vecarrow{OA_i}} = \vec{0}$ $\iff \mathlarger{\sum_{i=1}^{n} m_i 
 	(\vecarrow{XA_i} - \vecarrow{OX_{\, \,}}) = \vec{0} \iff 
-    \vecarrow{XO_{\;}} = \frac{\sum m_i \,
-	\vecarrow{XA_i}}{\sum m_i}}$. То есть \\\onehalfspacing\\ утверждение
-	о существовании \textit{центра масс} свелось к утверждению, что существует
+    \vecarrow{XO_{\;}} = \frac{\displaystyle \sum \Big(m_i
+	\vecarrow{XA_i} \Big)}{\displaystyle \sum m_i}}$. Таким образом, % \\\onehalfspacing\\ 
+    утверждение о существовании \textit{центра масс} свелось к утверждению, что существует
 	вектор $\vecarrow{XO_{\;}}$, заданный соответствующим соотношением, а он,
-	понятное дело, существует. 
+	понятное дело, существует. \par
+    }
 \end{proof}
 
 \begin{remark}
-	{\setstretch{1.5}
+	{\setstretch{2.0}
     Если условие $\mathlarger{\sum_{i=1}^{n} m_i \ne 0}$ не выполняется,
 	то величина \\
-	$\mathlarger{|\vecarrow{XO_{\;}}| = \abs[\bigg]{\frac{\sum m_i \,
-	\vecarrow{XA_i}}{\sum m_i}}}$  не имеет смысла, поэтому это
-	ограничение на сумму масс существенно.\par
+	$\mathlarger{\abs[\big]{\vecarrow{XO_{\;}}} = \abs[\Bigg]{\frac{\displaystyle \sum \Big(m_i
+	\vecarrow{XA_i} \Big)}{\displaystyle \sum m_i}}}$  не имеет смысла, поэтому это
+	ограничение на сумму  масс существенно.\par
     }
 \end{remark}
 
@@ -165,10 +167,9 @@ $A_1(m_1), \, A_2(m_2), \, ... \, , \, A_n(m_n)$,
 
 \begin{proof}
 От противного. Пусть существуют два различных центра масс $Z$ и $Z'$.
-Тогда по определению имеем: $\mathlarger{\sum_{i=1}^{n} m_i \, \vecarrow{ZA_i}
-= \vec{0},}$ \quad $\mathlarger{\sum_{i=1}^{n} m_i \, \vecarrow{Z'A_i}} = \vec{0}. 
-\implies$\\
-$\implies \mathlarger{\sum_{i=1}^{n} m_i \, \vecarrow{ZZ'_{\;\:\,}}} = \vec{0}$
+Тогда по определению имеем: $\mathlarger{\sum_{i=1}^{n} m_i  \vecarrow{ZA_i}
+= \vec{0},} \;  \mathlarger{\sum_{i=1}^{n} m_i  \vecarrow{Z'A_i}} = \vec{0}. 
+\Rightarrow$ $\mathlarger{\sum_{i=1}^{n} m_i  \vecarrow{ZZ'_{\;\:\,}}} = \vec{0}$
 $\iff \mathlarger{\vecarrow{ZZ'_{\;\:\,}} \sum_{i=1}^{n} m_i} = \vec{0}$. 
 $\iff \vecarrow{ZZ'_{\;\:\,}} = \vec{0}$ (последний переход верен, 
 так как центр масс существует, то есть
@@ -279,7 +280,7 @@ m_i \, \Overrightarrow{WA_i}} = \vec{0}$, что верно в силу того
 	Мы доказали сразу и \textit{необходимость}, и \textit{достаточность},
 	потому что полученное выражение является критерием пренадлежности точки
 	$P$ прямой $CC_1$, то есть
-	т\\ого, что все три чевианы проходят через одну точку.\\
+	того, что все три чевианы проходят через одну точку.\\
     
 	Пусть теперь  прямые $AA_1$ и $BB_1$ параллельны. Докажем, что 
 	тогда прямая $CC_1$ им параллельна. От противного. Пусть
