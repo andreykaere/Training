@@ -36,12 +36,27 @@ defaultmassformat="$%L(%.4g)$";
 //dot("$A$", A, SW);
 //dot("$B$", B, SE);
 //dot("$C$", C, N);
+label("$A$", t.A, S*3.5+W*10.5);
+label(Label("\(\bigg(\frac{\vphantom{A_{1_1}}
+    \overrightarrow{\vphantom{AB'} CB_1}}{\vphantom
+	{\overrightarrow{AB^{2'}}}\overrightarrow{\vphantom{AB'}
+    B_1A_{\:}}}\bigg)\)",
+    fontsize(8)), t.A, SW);
 
-label("$A(\frac{\overline{CB_1}}{\vphantom
-	{\overline{AB'}}\overline{B_1A}})$", 
-"$B(\frac{\overline{CA_1}}{\vphantom
-	{\overline{AB'}}\overline{A_1B}})$", "$C(1)$", t);
+label("$B$", t.B, S*2+E);
+label(Label("\(\bigg(\frac{\vphantom{A_{1_1}}
+    \overrightarrow{\vphantom{AB'} CA_1}}{\vphantom
+	{\overrightarrow{AB^{2'}}}\overrightarrow{\vphantom{AB'}A_1B_{\, \,}}}
+    \bigg)\)",
+    fontsize(8)), t.B, S*2.5+E*4.5);
 
+dot("$C(1)$", t.C, N);
+/*
+label("\(A\Big(\frac{\overrightarrow{CB_1}}{\vphantom
+	{\overrightarrow{AB'}}\overrightarrow{B_1A_{\:}}}\Big)\)", 
+      "\(B\Big(\frac{\overline{CA_1}}{\vphantom
+    {\overline{AB'}}\overline{A_1B}}\Big)\)", "$C(1)$", t);
+*/
 dot(t.A, UnFill);
 dot(t.B, UnFill);
 dot(t.C, UnFill);
