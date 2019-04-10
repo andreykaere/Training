@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  10 APR 2019 14:35
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  10 APR 2019 15:25
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -895,7 +895,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.059 seconds)
+luaotfload | main : initialization completed in 0.058 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2179,20 +2179,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--489
 
  []
 
-luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2207,6 +2193,20 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39 [5<./img/orthicproof.pdf>]
+luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 Underfull \hbox (badness 10000) in paragraph at lines 506--511
 
  []
@@ -2400,25 +2400,18 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 660--662
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 664--669
+Underfull \hbox (badness 2229) in paragraph at lines 664--671
 \EU2/CMUSerif(1)/m/n/14.4 тре-уголь-ни-ка $\l_fontspec_font 𝐴
-𝐵𝐶$ \EU2/CMUSerif(1)/m/n/14.4 име-ем: $\l_fontspec_font 𝐴𝐵[] =
+𝐵𝐶$ \EU2/CMUSerif(1)/m/n/14.4 име-ем: $[] \l_fontspec_font =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
 
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 664--669
-\l_fontspec_font 𝐶[]𝐴 = []$\EU2/CMUSerif(1)/m/n/14.4 . По-ло-жим $
-\l_fontspec_font 𝐵[]𝐵[] = []$\EU2/CMUSerif(1)/m/n/14.4 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 677--678
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 690--694
+Underfull \hbox (badness 10000) in paragraph at lines 692--696
 
  []
 
@@ -2443,7 +2436,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39
-Underfull \hbox (badness 10000) in paragraph at lines 696--702
+Underfull \hbox (badness 10000) in paragraph at lines 698--704
 
  []
 
@@ -2451,21 +2444,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--702
 File: ./img/excircle.pdf Graphic file (type pdf)
 
 <use ./img/excircle.pdf>
-Package pdftex.def Info: ./img/excircle.pdf used on input line 706.
+Package pdftex.def Info: ./img/excircle.pdf used on input line 708.
 (pdftex.def)             Requested size: 199.16928pt x 159.03815pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 706--709
-[][][][][]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 708--711
+[][][][][] 
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 712--716
+Underfull \hbox (badness 5607) in paragraph at lines 714--720
 [][][]\EU2/CMUSerif(1)/m/n/14.4 Неслож-но ви-деть, что точ-
 ки ка-са-ния
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--716
+Underfull \hbox (badness 1173) in paragraph at lines 714--720
+\EU2/CMUSerif(1)/m/n/14.4 ка-зан-ну тео-ре-му, по-лу-чим, 
+что точ-ки На-
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 714--720
+\EU2/CMUSerif(1)/m/n/14.4 ге-ля и Жер-гон-на \EU2/CMUSerif(1)/m/it
+/14.4 изо-то-ми-че-ски со-пря-же-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 714--720
 
  []
 
@@ -2476,12 +2481,12 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39
-Underfull \hbox (badness 10000) in paragraph at lines 731--735
+Underfull \hbox (badness 10000) in paragraph at lines 735--739
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 737--744
+Underfull \hbox (badness 10000) in paragraph at lines 741--748
 
  []
 
@@ -2510,7 +2515,7 @@ luaotfload | aux : no font with id 39
 File: ./img/sharygin_19_2019.pdf Graphic file (type pdf)
 
 <use ./img/sharygin_19_2019.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 775.
+Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 779.
 (pdftex.def)             Requested size: 426.79134pt x 261.91171pt.
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2523,10 +2528,10 @@ luaotfload | aux : no font with id 39
 File: ./img/sharygin_19_2019_2.pdf Graphic file (type pdf)
 
 <use ./img/sharygin_19_2019_2.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 797.
+Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 801.
 (pdftex.def)             Requested size: 227.62204pt x 147.55818pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 797--799
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 801--803
 [][][][][] 
  []
 
@@ -2544,29 +2549,29 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39 [10<./img/sharygin_19_2019.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 828--830
+Underfull \hbox (badness 10000) in paragraph at lines 832--834
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 832--836
+Underfull \hbox (badness 10000) in paragraph at lines 836--840
 
  []
 
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
-Overfull \hbox (13.9905pt too wide) in paragraph at lines 846--856
+Overfull \hbox (13.9905pt too wide) in paragraph at lines 850--860
 \EU2/CMUSerif(1)/m/n/14.4 ше-ние си-ну-сов со-от-вет-ств
 у-ю-щих уг-лов. То есть, вообще-то го-во-ря, $\l_
 fontspec_font 𝐵𝐿[], 𝐴𝐿[], 𝐶𝐿[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--856
+Underfull \hbox (badness 10000) in paragraph at lines 850--860
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 858--865
+Underfull \hbox (badness 10000) in paragraph at lines 862--869
 
  []
 
@@ -2584,12 +2589,12 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39 [11<./img/sharygin_19_2019_2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 867--871
+Underfull \hbox (badness 10000) in paragraph at lines 871--875
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 873--881
+Underfull \hbox (badness 10000) in paragraph at lines 877--885
 
  []
 
@@ -2716,9 +2721,9 @@ Here is how much of LuaTeX's memory you used:
  596 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 66 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:9,2:1043,3:278,4:1061,5:282,6:2512,7:222,8:3,9:550,10:447,11:2
+   avail lists: 1:8,2:1143,3:279,4:1168,5:286,6:2606,7:222,8:3,9:570,10:464,11:2
  37453 multiletter control sequences out of 65536+600000
- 122 fonts using 37963971 bytes
+ 122 fonts using 37963475 bytes
  55i,20n,77p,858b,443s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf></usr
 /share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texm
@@ -2729,7 +2734,7 @@ pe/public/cm-unicode/cmunti.otf></usr/share/texlive/texmf-dist/fonts/opentype/pu
 blic/cm-unicode/cmunrm.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/
 cm-unicode/cmunbx.otf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on main.pdf (12 pages, 143119 bytes).
+Output written on main.pdf (12 pages, 143378 bytes).
 
 PDF statistics: 251 PDF objects out of 1000 (max. 8388607)
  168 compressed objects within 2 object streams
