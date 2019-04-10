@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  10 APR 2019 13:07
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  10 APR 2019 14:35
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -895,7 +895,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.061 seconds)
+luaotfload | main : initialization completed in 0.059 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2447,8 +2447,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--702
 
  []
 
+<./img/excircle.pdf, id=138, 170.7178pt x 136.30925pt>
+File: ./img/excircle.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--708
+<use ./img/excircle.pdf>
+Package pdftex.def Info: ./img/excircle.pdf used on input line 706.
+(pdftex.def)             Requested size: 199.16928pt x 159.03815pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 706--709
+[][][][][]
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 712--716
+[][][]\EU2/CMUSerif(1)/m/n/14.4 Неслож-но ви-деть, что точ-
+ки ка-са-ния
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--716
 
  []
 
@@ -2459,12 +2476,12 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39
-Underfull \hbox (badness 10000) in paragraph at lines 722--726
+Underfull \hbox (badness 10000) in paragraph at lines 731--735
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--735
+Underfull \hbox (badness 10000) in paragraph at lines 737--744
 
  []
 
@@ -2481,19 +2498,19 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 39 [9]
+luaotfload | aux : no font with id 39 [9<./img/excircle.pdf>]
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 39 <./img/sharygin_19_2019.pdf, id=141, 284.
-52296pt x 174.59227pt>
+luaotfload | aux : no font with id 39
+<./img/sharygin_19_2019.pdf, id=158, 284.52296pt x 174.59227pt>
 File: ./img/sharygin_19_2019.pdf Graphic file (type pdf)
 
 <use ./img/sharygin_19_2019.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 766.
+Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 775.
 (pdftex.def)             Requested size: 426.79134pt x 261.91171pt.
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2502,14 +2519,14 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 39
-<./img/sharygin_19_2019_2.pdf, id=142, 184.94093pt x 119.88791pt>
+<./img/sharygin_19_2019_2.pdf, id=159, 184.94093pt x 119.88791pt>
 File: ./img/sharygin_19_2019_2.pdf Graphic file (type pdf)
 
 <use ./img/sharygin_19_2019_2.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 788.
+Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 797.
 (pdftex.def)             Requested size: 227.62204pt x 147.55818pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 788--790
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 797--799
 [][][][][] 
  []
 
@@ -2526,41 +2543,30 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 39 [10<./img/sharygin_19_2019.pdf><./img/shar
-ygin_19_2019_2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 819--821
+luaotfload | aux : no font with id 39 [10<./img/sharygin_19_2019.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 828--830
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--827
+Underfull \hbox (badness 10000) in paragraph at lines 832--836
 
  []
 
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
-Overfull \hbox (13.9905pt too wide) in paragraph at lines 837--847
+Overfull \hbox (13.9905pt too wide) in paragraph at lines 846--856
 \EU2/CMUSerif(1)/m/n/14.4 ше-ние си-ну-сов со-от-вет-ств
 у-ю-щих уг-лов. То есть, вообще-то го-во-ря, $\l_
 fontspec_font 𝐵𝐿[], 𝐴𝐿[], 𝐶𝐿[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--847
+Underfull \hbox (badness 10000) in paragraph at lines 846--856
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--856
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 858--862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 864--872
+Underfull \hbox (badness 10000) in paragraph at lines 858--865
 
  []
 
@@ -2577,7 +2583,16 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 39 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 39 [11]
+luaotfload | aux : no font with id 39 [11<./img/sharygin_19_2019_2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 867--871
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--881
+
+ []
+
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2696,14 +2711,14 @@ l with language rus
 luaotfload | aux : no font with id 39))
 
 Here is how much of LuaTeX's memory you used:
- 35864 strings out of 495004
+ 35874 strings out of 495004
  100000,953878 words of node,token memory allocated
  596 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 66 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:8,2:1042,3:278,4:1061,5:282,6:2536,7:222,8:3,9:550,10:453,11:2
- 37449 multiletter control sequences out of 65536+600000
- 122 fonts using 37963475 bytes
+   avail lists: 1:9,2:1043,3:278,4:1061,5:282,6:2512,7:222,8:3,9:550,10:447,11:2
+ 37453 multiletter control sequences out of 65536+600000
+ 122 fonts using 37963971 bytes
  55i,20n,77p,858b,443s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf></usr
 /share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texm
@@ -2714,10 +2729,10 @@ pe/public/cm-unicode/cmunti.otf></usr/share/texlive/texmf-dist/fonts/opentype/pu
 blic/cm-unicode/cmunrm.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/
 cm-unicode/cmunbx.otf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on main.pdf (12 pages, 134933 bytes).
+Output written on main.pdf (12 pages, 143119 bytes).
 
-PDF statistics: 234 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+PDF statistics: 251 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
