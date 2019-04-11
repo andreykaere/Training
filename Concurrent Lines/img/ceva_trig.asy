@@ -35,12 +35,12 @@ dot(t.C, UnFill);
 //dot(t.ince
 
 
-markangle("$\alpha_2$", A1, t.A, t.C, radius=7mm, Arrow, fontsize(9));
-markangle("$\alpha_1$", t.B, t.A, A1, radius=6mm, Arrow, fontsize(9));
+markangle("$\alpha_2$", A1, t.A, t.C, radius=6mm, Arrow, fontsize(11));
+markangle("$\alpha_1$", t.B, t.A, A1, radius=5mm, Arrow, fontsize(11));
 
-markangle("$\gamma_1$", t.A, t.C, C1, radius=6mm, Arrow, fontsize(9));
-markangle("$\gamma_2$", C1, t.C, t.B, radius=7mm, Arrow, fontsize(9));
+markangle(Label("$\gamma_1$", Relative(0.55)), t.A, t.C, C1, radius=6mm, Arrow, fontsize(11));
+markangle("$\gamma_2$", C1, t.C, t.B, radius=7mm, Arrow, fontsize(11));
 
 
-markangle("$\beta_1$", t.C, t.B, B1, radius=8mm, Arrow, fontsize(9));
-markangle("$\beta_2$", B1, t.B, t.A, radius=9mm, Arrow, fontsize(9));
+markangle("$\beta_1$", t.C, t.B, B1, radius=8mm, Arrow, fontsize(10));
+markangle("$\beta_2$", B1, t.B, t.A, radius=9mm, Arrow, fontsize(10));
