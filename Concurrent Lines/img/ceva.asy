@@ -36,20 +36,32 @@ defaultmassformat="$%L(%.4g)$";
 //dot("$A$", A, SW);
 //dot("$B$", B, SE);
 //dot("$C$", C, N);
+label("$A$", t.A, S*3+W*9.7);
+
+label(Label("\(\left(\frac{CB_1}{B_1A}\right)\)",
+    fontsize(12)), t.A, SW);
+
+/*
 label("$A$", t.A, S*3.5+W*10.5);
 label(Label("\(\bigg(\frac{\vphantom{A_{1_1}}
     \overrightarrow{\vphantom{AB'} CB_1}}{\vphantom
 	{\overrightarrow{AB^{2'}}}\overrightarrow{\vphantom{AB'}
     B_1A_{\:}}}\bigg)\)",
     fontsize(8)), t.A, SW);
-
+*/
 label("$B$", t.B, S*2+E);
+
+label(Label("\(\left (\frac{CA_1}{A_1B} \right)\)",
+    fontsize(12)), t.B, S*1.7+E*3);
+
+
+/*
 label(Label("\(\bigg(\frac{\vphantom{A_{1_1}}
     \overrightarrow{\vphantom{AB'} CA_1}}{\vphantom
 	{\overrightarrow{AB^{2'}}}\overrightarrow{\vphantom{AB'}A_1B_{\, \,}}}
     \bigg)\)",
     fontsize(8)), t.B, S*2.5+E*4.5);
-
+*/
 dot("$C(1)$", t.C, N);
 /*
 label("\(A\Big(\frac{\overrightarrow{CB_1}}{\vphantom

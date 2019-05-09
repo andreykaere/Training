@@ -34,7 +34,7 @@ draw(ic);
 point Ap = intersectionpoints(ic, t.AB)[0];
 dot("$C_1$", Ap, S*1.5+W*0.5, fontsize(11));
 
-draw(segment(A, Ap), StickIntervalMarker(1, 2));
+draw(segment(A, Ap), StickIntervalMarker(1, 2, 4, 2, linewidth(1)));
 
 /* View the definition of circle excircle(point,point,point) */
 circle ec=excircle(A,B,C);
@@ -44,7 +44,7 @@ clipdraw(ec);
 point A1 = intersectionpoints(ec, t.AB)[0];
 dot("$T_C$", A1, S*1.3+E*0.7, fontsize(11));
 
-draw(segment(B, A1), StickIntervalMarker(1, 2));
+draw(segment(B, A1), StickIntervalMarker(1, 2, 4, 2, linewidth(1)));
 
 dot(A, UnFill);
 dot(B, UnFill);

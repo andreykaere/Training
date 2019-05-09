@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  17 APR 2019 19:57
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2019.3.30)  9 MAY 2019 19:01
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -505,7 +505,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.059 seconds)
+luaotfload | main : initialization completed in 0.058 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -2580,10 +2580,10 @@ luaotfload | aux : no font with id 44
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 17.28026pt on input line 222.
+(Font)              scaled to size 17.28026pt on input line 228.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 17.27972pt on input line 222.
+(Font)              scaled to size 17.27972pt on input line 228.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2601,9 +2601,7 @@ l with language rus
 luaotfload | aux : no font with id 44 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Missing character: There is no С (U+0421) in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--280
 
  []
 
@@ -2624,7 +2622,7 @@ l with language rus
 luaotfload | aux : no font with id 44
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunti.otf"
-Underfull \hbox (badness 10000) in paragraph at lines 283--298
+Underfull \hbox (badness 10000) in paragraph at lines 289--304
 
  []
 
@@ -2637,6 +2635,10 @@ l with language rus
 luaotfload | aux : no font with id 44
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbi.otf"
+Underfull \hbox (badness 10000) in paragraph at lines 314--332
+
+ []
+
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2665,7 +2667,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Overfull \hbox (7.87206pt too wide) in paragraph at lines 331--333
+Overfull \hbox (7.87206pt too wide) in paragraph at lines 337--339
 [][]\EU2/CMUSerif(2)/bx/n/14.4 Тео-ре-ма \EU2/CMUSerif(2)/m/n/15 (о е
 дин-ствен-но-сти цен-тра масс)\EU2/CMUSerif(2)/bx/n/14.4
  . []\EU2/CMUSerif(2)/m/it/14.4 Ес-ли центр масс си-сте-мы 
@@ -2673,7 +2675,7 @@ $\l_fontspec_font 𝐴[](𝑚[]), []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--347
+Underfull \hbox (badness 10000) in paragraph at lines 341--353
 
  []
 
@@ -2684,14 +2686,14 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Overfull \hbox (3.38739pt too wide) in paragraph at lines 349--352
+Overfull \hbox (3.38739pt too wide) in paragraph at lines 355--358
 []\EU2/CMUSerif(2)/bx/it/14 При-ме-ча-ние. \EU2/CMUSerif(2)/m/n/14.4 
 Сто-ит от-ме-тить, что един-ствен-ность мгно-
 вен-но сле-ду-ет из един-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--352
+Underfull \hbox (badness 10000) in paragraph at lines 355--358
 
  []
 
@@ -2709,14 +2711,14 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Overfull \hbox (2.44292pt too wide) in paragraph at lines 358--365
+Overfull \hbox (2.44292pt too wide) in paragraph at lines 364--371
 \l_fontspec_font 𝐴[](𝑚[]),  𝐴[](𝑚[]),  ... ,  𝐴[](𝑚[]),  
 𝐵[](𝑘[]),  𝐵[](𝑘[]),  ... ,  𝐵[](𝑘[])$\EU2/CMUSerif(2)/m/it/1
 4.4 , и под-си-сте-ма $\l_fontspec_font 𝐴[](𝑚[]), [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--387
+Underfull \hbox (badness 10000) in paragraph at lines 377--393
 
  []
 
@@ -2741,7 +2743,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 404--410
+Underfull \hbox (badness 10000) in paragraph at lines 414--420
 
  []
 
@@ -2767,20 +2769,19 @@ luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 134 (CMUSerif-Roman) defines no feature for script cy
 rl with language rus
-luaotfload | aux : no font with id 134 <./img/ceva.pdf, id=23, 199.1741pt x 128
-.03835pt>
+luaotfload | aux : no font with id 134
+Underfull \hbox (badness 10000) in paragraph at lines 440--445
+
+ []
+
+<./img/ceva.pdf, id=23, 199.1741pt x 128.90157pt>
 File: ./img/ceva.pdf Graphic file (type pdf)
  <use ./img/ceva.pdf>
-Package pdftex.def Info: ./img/ceva.pdf used on input line 436.
-(pdftex.def)             Requested size: 256.0748pt x 164.63092pt.
+Package pdftex.def Info: ./img/ceva.pdf used on input line 451.
+(pdftex.def)             Requested size: 256.0748pt x 165.74084pt.
 
-Overfull \hbox (6.25607pt too wide) in paragraph at lines 432--438
-[][]  [][][] 
- []
-
-Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
-
+Overfull \hbox (6.25607pt too wide) in paragraph at lines 447--453
+[][]  [][][]
  []
 
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2796,7 +2797,30 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 44 [4<./img/ceva.pdf>]
+luaotfload | aux : no font with id 44 [4]
+Underfull \hbox (badness 2781) in paragraph at lines 470--480
+[][]\EU2/CMUSerif(2)/m/n/14.4 Пусть $\l_fontspec_font 𝐵𝐵[] ∩ 𝐴
+𝐴[] = 𝑃$\EU2/CMUSerif(2)/m/n/14.4 . То-
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 470--480
+\l_fontspec_font 𝐶(𝐴, 𝐵, 𝐶) ∈ 𝐵𝐵[]$ \EU2/CMUSerif(2)/m/n/14
+.4 (сгруп-пи-ро-ва-ли
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 470--480
+\EU2/CMUSerif(2)/m/n/14.4 мас-сы из то-чек $\l_fontspec_font 𝐴$ 
+\EU2/CMUSerif(2)/m/n/14.4 и $\l_fontspec_font 𝐶$ \EU2/CMUSerif(2)/m/n/14.4 
+в $\l_fontspec_font 𝐵[]$\EU2/CMUSerif(2)/m/n/14.4 ) и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--499
+
+ []
+
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2804,13 +2828,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Overfull \hbox (10.9935pt too wide) in paragraph at lines 534--546
-[]\EU2/CMUSerif(2)/bx/it/14 При-ме-ча-ние. \EU2/CMUSerif(2)/m/n/14.4 
-Как мы по-ка-за-ли, $\l_fontspec_font 𝐴𝐴[] ∥
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--555
+Underfull \hbox (badness 10000) in paragraph at lines 571--592
 
  []
 
@@ -2820,17 +2838,31 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 44 <./img/ceva_trig.pdf, id=54, 142.26149pt 
+luaotfload | aux : no font with id 44 <./img/ceva_trig.pdf, id=27, 142.26149pt 
 x 121.9757pt>
 File: ./img/ceva_trig.pdf Graphic file (type pdf)
 
 <use ./img/ceva_trig.pdf>
-Package pdftex.def Info: ./img/ceva_trig.pdf used on input line 583.
+Package pdftex.def Info: ./img/ceva_trig.pdf used on input line 620.
 (pdftex.def)             Requested size: 184.9429pt x 158.58324pt.
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
+l with language rus
+luaotfload | aux : no font with id 44
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
+l with language rus
+luaotfload | aux : no font with id 44 [5<./img/ceva.pdf><./img/ceva_trig.pdf>]
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2859,6 +2891,14 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 134 (CMUSerif-Roman) defines no feature for script cy
 rl with language rus
 luaotfload | aux : no font with id 134
+Overfull \hbox (0.68822pt too wide) in paragraph at lines 653--657
+[][]\EU2/CMUSerif(2)/bx/n/15 Тео-ре-ма Дез-ар-га \EU2/CMUSerif(2)
+/m/n/15 (об-рат-ная)\EU2/CMUSerif(2)/bx/n/15 . []\EU2/CMUSerif(2)/m/it/
+14.4 Ес-ли точ-ки пе-ре-се-че-ния пря-мых $\l_fontspe
+c_font 𝐴𝐵$ \EU2/CMUSerif(2)/m/it/14.4 и $\l_fontspec_font 𝐴[]𝐵[]$\
+EU2/CMUSerif(2)/m/it/14.4 ,
+ []
+
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2866,33 +2906,19 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
-l with language rus
-luaotfload | aux : no font with id 44 [5<./img/ceva_trig.pdf>]
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
-l with language rus
-luaotfload | aux : no font with id 44
-Overfull \hbox (0.226pt too wide) in paragraph at lines 630--630
+Overfull \hbox (0.226pt too wide) in paragraph at lines 667--667
 []|\EU2/CMUSerif(2)/bx/n/17 При-над-леж-ность точ-ки пе-
 ре-се-че-ния двух пря-мых тре-тьей| 
  []
 
-<./img/orthicproof.pdf, id=76, 170.7178pt x 142.6931pt>
+<./img/orthicproof.pdf, id=72, 170.7178pt x 142.6931pt>
 File: ./img/orthicproof.pdf Graphic file (type pdf)
 
 <use ./img/orthicproof.pdf>
-Package pdftex.def Info: ./img/orthicproof.pdf used on input line 637.
+Package pdftex.def Info: ./img/orthicproof.pdf used on input line 674.
 (pdftex.def)             Requested size: 199.16928pt x 166.48648pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 637--639
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 674--676
 [][][][][]
  []
 
@@ -2917,12 +2943,12 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44 [6<./img/orthicproof.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 677--681
+Underfull \hbox (badness 10000) in paragraph at lines 714--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--689
+Underfull \hbox (badness 10000) in paragraph at lines 722--726
 
  []
 
@@ -2964,17 +2990,10 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
+Underfull \hbox (badness 10000) in paragraph at lines 776--778
 
  []
 
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
-luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
-l with language rus
-luaotfload | aux : no font with id 44
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -2996,7 +3015,14 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 743--747
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
+l with language rus
+luaotfload | aux : no font with id 44
+Underfull \hbox (badness 10000) in paragraph at lines 780--784
 
  []
 
@@ -3015,14 +3041,14 @@ luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunti.otf" <./img/isogonal.pdf
-, id=96, 173.78928pt x 131.3407pt>
+, id=92, 173.78928pt x 131.3407pt>
 File: ./img/isogonal.pdf Graphic file (type pdf)
 
 <use ./img/isogonal.pdf>
-Package pdftex.def Info: ./img/isogonal.pdf used on input line 772.
+Package pdftex.def Info: ./img/isogonal.pdf used on input line 809.
 (pdftex.def)             Requested size: 247.53897pt x 187.08426pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 772--774
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 809--811
 [][][][][] 
  []
 
@@ -3033,19 +3059,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 799--806
-
- []
-
-
-Overfull \hbox (7.0341pt too wide) in paragraph at lines 815--819
-\EU2/CMUSerif(2)/m/n/14.4 сим-мет-рич-ны ме-ди-а-нам от-
-но-си-тель-но бис-сек-трис уг-лов. При-ме-няя 
-те-перь толь-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 815--819
+Underfull \hbox (badness 10000) in paragraph at lines 836--848
 
  []
 
@@ -3063,6 +3077,17 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44 [8<./img/isogonal.pdf>]
+Overfull \hbox (7.0341pt too wide) in paragraph at lines 857--861
+\EU2/CMUSerif(2)/m/n/14.4 сим-мет-рич-ны ме-ди-а-нам от-
+но-си-тель-но бис-сек-трис уг-лов. При-ме-няя 
+те-перь толь-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 857--861
+
+ []
+
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -3077,7 +3102,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 826--830
+Underfull \hbox (badness 10000) in paragraph at lines 868--872
 
  []
 
@@ -3102,7 +3127,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 836--839
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
@@ -3119,27 +3144,22 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 44 <./img/isotomic.pdf, id=128, 170.7178pt x
+luaotfload | aux : no font with id 44 <./img/isotomic.pdf, id=124, 170.7178pt x
  112.49026pt>
 File: ./img/isotomic.pdf Graphic file (type pdf)
 
 <use ./img/isotomic.pdf>
-Package pdftex.def Info: ./img/isotomic.pdf used on input line 860.
+Package pdftex.def Info: ./img/isotomic.pdf used on input line 894.
 (pdftex.def)             Requested size: 247.53897pt x 163.12213pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 860--862
-[][][][][] 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 894--896
+[][][][][]
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 864--872
-[][][]\EU2/CMUSerif(2)/m/n/14.4 По опре-де-ле-нию \EU2/CMUSerif(2)
-/m/it/14.4 изо-то-ми-че-ско-го
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 881--882
-
+Underfull \hbox (badness 3158) in paragraph at lines 907--915
+[][]\EU2/CMUSerif(2)/m/n/14.4 По опре-де-ле-нию \EU2/CMUSerif(2)/m
+/it/14.4 изо-то-ми-че-ско-го
  []
 
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -3156,7 +3176,7 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44 [9<./img/isotomic.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 894--898
+Underfull \hbox (badness 10000) in paragraph at lines 939--943
 
  []
 
@@ -3167,41 +3187,41 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 900--906
+Underfull \hbox (badness 10000) in paragraph at lines 945--956
 
  []
 
-<./img/excircle.pdf, id=150, 170.7178pt x 136.30925pt>
+<./img/excircle.pdf, id=146, 170.7178pt x 136.30925pt>
 File: ./img/excircle.pdf Graphic file (type pdf)
 
 <use ./img/excircle.pdf>
-Package pdftex.def Info: ./img/excircle.pdf used on input line 910.
+Package pdftex.def Info: ./img/excircle.pdf used on input line 960.
 (pdftex.def)             Requested size: 199.16928pt x 159.03815pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 910--913
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 960--963
 [][][][][] 
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 916--922
+Underfull \hbox (badness 5607) in paragraph at lines 966--972
 [][][]\EU2/CMUSerif(2)/m/n/14.4 Неслож-но ви-деть, что точ-
 ки ка-са-ния
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 916--922
+Underfull \hbox (badness 1173) in paragraph at lines 966--972
 \EU2/CMUSerif(2)/m/n/14.4 ка-зан-ну тео-ре-му, по-лу-чим, 
 что точ-ки На-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 916--922
+Underfull \hbox (badness 1152) in paragraph at lines 966--972
 \EU2/CMUSerif(2)/m/n/14.4 ге-ля и Жер-гон-на \EU2/CMUSerif(2)/m/it
 /14.4 изо-то-ми-че-ски со-пря-же-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 916--922
+Underfull \hbox (badness 10000) in paragraph at lines 966--972
 
  []
 
@@ -3212,12 +3232,12 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-Underfull \hbox (badness 10000) in paragraph at lines 936--940
+Underfull \hbox (badness 10000) in paragraph at lines 986--990
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 942--949
+Underfull \hbox (badness 10000) in paragraph at lines 992--999
 
  []
 
@@ -3242,11 +3262,11 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-<./img/sharygin_19_2019.pdf, id=171, 284.52296pt x 174.59227pt>
+<./img/sharygin_19_2019.pdf, id=167, 284.52296pt x 174.59227pt>
 File: ./img/sharygin_19_2019.pdf Graphic file (type pdf)
 
 <use ./img/sharygin_19_2019.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 980.
+Package pdftex.def Info: ./img/sharygin_19_2019.pdf used on input line 1030.
 (pdftex.def)             Requested size: 426.79134pt x 261.91171pt.
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -3255,17 +3275,6 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44
-<./img/sharygin_19_2019_2.pdf, id=172, 184.94093pt x 119.88791pt>
-File: ./img/sharygin_19_2019_2.pdf Graphic file (type pdf)
-
-<use ./img/sharygin_19_2019_2.pdf>
-Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 1002.
-(pdftex.def)             Requested size: 227.62204pt x 147.55818pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1002--1004
-[][][][][] 
- []
-
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -3280,29 +3289,36 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44 [11<./img/sharygin_19_2019.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1035
+<./img/sharygin_19_2019_2.pdf, id=186, 184.94093pt x 119.88791pt>
+File: ./img/sharygin_19_2019_2.pdf Graphic file (type pdf)
+
+<use ./img/sharygin_19_2019_2.pdf>
+Package pdftex.def Info: ./img/sharygin_19_2019_2.pdf used on input line 1052.
+(pdftex.def)             Requested size: 227.62204pt x 147.55818pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1052--1054
+[][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1037--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1091
 
  []
 
 luaotfload | load : Lookup/name: "CMUSerif" -> "cmunbx.otf"
-Overfull \hbox (13.9905pt too wide) in paragraph at lines 1051--1061
+Overfull \hbox (13.9905pt too wide) in paragraph at lines 1101--1111
 \EU2/CMUSerif(2)/m/n/14.4 ше-ние си-ну-сов со-от-вет-ств
 у-ю-щих уг-лов. То есть, вообще-то го-во-ря, $\l_
 fontspec_font 𝐵𝐿[], 𝐴𝐿[], 𝐶𝐿[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1051--1061
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1111
 
  []
 
@@ -3320,12 +3336,17 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
 luaotfload | aux : no font with id 44 [12<./img/sharygin_19_2019_2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1076
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1086
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1136
 
  []
 
@@ -3430,7 +3451,21 @@ luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
 l with language rus
-luaotfload | aux : no font with id 44 [13] (./main.aux
+luaotfload | aux : no font with id 44 [13]
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
+l with language rus
+luaotfload | aux : no font with id 44
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
+luaotfload | aux : font no 44 (CMUSerif-Roman) defines no feature for script cyr
+l with language rus
+luaotfload | aux : no font with id 44 [14] (./main.aux
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
 luaotfload | load : Lookup/name: "CMU Serif" -> "cmunrm.otf"
@@ -3447,30 +3482,29 @@ l with language rus
 luaotfload | aux : no font with id 44))
 
 Here is how much of LuaTeX's memory you used:
- 42296 strings out of 495004
+ 42307 strings out of 495004
  100000,1144653 words of node,token memory allocated
- 588 words of node memory still in use:
+ 591 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 5 attribute, 61 glue_spec, 5 attrib
 ute_list, 1 write nodes
-   avail lists: 1:3,2:1332,3:280,4:1437,5:325,6:2492,7:213,8:2,9:727,10:436,11:2
- 43234 multiletter control sequences out of 65536+600000
- 171 fonts using 55892195 bytes
+   avail lists: 1:4,2:1273,3:280,4:1363,5:313,6:2050,7:212,8:2,9:679,10:359,11:2
+ 43233 multiletter control sequences out of 65536+600000
+ 171 fonts using 55895143 bytes
  66i,20n,77p,858b,451s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/opentype/public/cm-unicode/cmuntt.otf></usr
-/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texl
-ive/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf></usr/share/texlive/t
+/share/texlive/texmf-dist/fonts/opentype/public/cm-unicode/cmunrm.otf></usr/shar
+e/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/share/texlive/t
 exmf-dist/fonts/opentype/public/cm-unicode/cmunbi.otf></usr/share/texmf/fonts/op
 entype/public/lm-math/latinmodern-math.otf></usr/share/texmf/fonts/opentype/publ
 ic/lm-math/latinmodern-math.otf></usr/share/texlive/texmf-dist/fonts/opentype/pu
 blic/cm-unicode/cmunti.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/
 cm-unicode/cmunrm.otf></usr/share/texlive/texmf-dist/fonts/opentype/public/cm-un
 icode/cmunbx.otf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb>
-Output written on main.pdf (13 pages, 156200 bytes).
+bols/msam10.pfb>
+Output written on main.pdf (14 pages, 154582 bytes).
 
-PDF statistics: 273 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+PDF statistics: 268 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
